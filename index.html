@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--index.html -->
+<html>
+  <head>
+     <title>Penrod Office Weather</title>
+     <link rel="stylesheet" type="text/css" href="css/lds-framework.css">
+	 <script src = "script.js"></script>
+	 <meta http-equiv="refresh" content="30"> <!--autorefresh page-->
+  </head>
+  <body>
+        <h1>
+       <img src="images/penrodlogo.png"
+             alt="Penrod Current Office Weather"
+             width="400" height="200"> 
+        </h1>	
+    <table class="main"> <!--Outer Table Holds all city and info-->
+        <tr class = "mil"><!--Start First Row Mil and Chi-->
+	        <th class = "mil"> 	<!--row1,col1 Mil-->
+		        <div>
+			        <h2><img id = "pic_1"/>Milwaukee, WI</h1>
+			        <span id = "d1"></span>
+		        </div>
+		        <table> <!--inner table-formats data of Mil-->
+			        <tr> <!--inner row1-->
+				        <th> Temperature: </th> <!--left col-->
+				        <th class="right">      <!--right col-->
+					        <span id="temp_1"></span>&degF
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Humidity:</th>      
+				        <th class="right">      
+					        <span id="humid_1"></span>%
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Wind:</th>          
+				        <th class="right">      
+						    <span id="wind_1"></span>MPH &nbsp
+						    <span id="dir_1"></span>
+				        </th>
+			        </tr>
+		        </table>
+	        </th>	
+	        <th class = "chi"> 
+		        <div>
+			        <h2><img id = "pic_2"/>Chicago, IL</h2>
+			        <span id = "d2"></span>
+	        	</div>		       
+		        <table> 
+			        <tr> 
+				        <th>Temperature:</th>   
+				        <th class="right">      
+					        <span id="temp_2"></span>&degF
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Humidity:</th>      
+				        <th class="right">      
+					        <span id="humid_2"></span>%
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Wind: </th>         
+				        <th class="right">      
+					        <span id="wind_2"></span>mph &nbsp
+					        <span id="dir_2"></span>
+				        </th>
+			        </tr>
+		        </table>
+	        </th>
+        </tr> 
+        <tr class = "min">
+	        <th class = "min"> 
+		        <div>
+			        <h2><img id = "pic_3"/>Minneapolis, MN</h2>
+			            <span id = "d3"></span>
+		        </div>
+		        <table> 
+			        <tr> 
+				        <th>Temperature:</th>    
+				        <th class="right">       
+					        <span id="temp_3"></span>&degF
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Humidity:</th>       
+				        <th class="right">	 
+					        <span id="humid_3"></span>%
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Wind:</th>           
+				        <th class="right">       
+					        <span id="wind_3"></span>mph &nbsp
+					        <span id="dir_3"></span>
+				        </th>	
+			        </tr>
+		        </table>
+	        </th>
+	        <th class = "dal"> 
+		        <div>
+			        <h2><img id = "pic_4"/>Dallas, TX</h2>
+			            <span id = "d4"></span>
+		        </div>
+		        <table> 
+			        <tr> 
+				        <th>Temperature:</th>    
+				        <th class="right">      
+					        <span id="temp_4"></span>&degF
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Humidity:</th>		
+				        <th class="right">		
+					        <span id="humid_4"></span>%
+				        </th>
+			        </tr>
+			        <tr> 
+				        <th>Wind:</th>			
+				        <th class="right">		
+					        <span id="wind_4"></span>mph &nbsp
+					        <span id="dir_4"></span>
+				        </th>
+			        </tr>
+		        </table>
+	        </th>
+        </tr> 
+    </body> 
+</html>
